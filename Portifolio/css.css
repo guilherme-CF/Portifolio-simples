@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: cen nter;
+  justify-content: center;
+}
+.nomeTitulo {
+  font-family: "Agbalumo", "Roboto";
+  margin-right: 18%;
+  font-size: 22px;
+}
+nav {
+  background-color: #040302cd; /* Cor de fundo do menu */
+  color: #fff; /* Cor do texto no menu */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Estilize a lista não ordenada (ul) */
+ul {
+  list-style: none; /* Remove os marcadores de lista */
+  padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+/* Estilize os itens de menu da lista (li) */
+li {
+  display: inline; /* Coloca os itens na mesma linha */
+  margin-right: 10%; /* Espaço entre os itens do menu */
+}
+
+/* Estilize os links (âncoras) */
+a {
+  text-decoration: none; /* Remove sublinhado dos links */
+  color: #fff; /* Cor do texto dos links */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilize os links quando passam o mouse por cima */
+a:hover {
+  color: #2f75ca; /* Cor do texto dos links quando hover */
+}
+
+/*box do sobre mim*/
+
+.camada-superior {
+  background-color: #3498db;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.conteinerSobre {
+  display: flex;
+  padding: 40px;
+  width: 80%;
+  border-radius: 30px;
+}
+.box-texto {
+  padding: 20px;
+  background-color: #ff5733;
+}
+.box-imagem {
+  padding: 20px;
+}
+img {
+  width: 600px;
+  height: 600px;
+}
+.icon-redes {
+  background-color: #171616;
+}
+
+.camada-do-meio {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.camada-inferior {
+  background-color: #ff5733;
+  color: #fff;
+}
